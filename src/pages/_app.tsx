@@ -3,7 +3,7 @@ import "@/styles/globals.css";
 import type { AppProps } from "next/app";
 
 // FONTS
-import { Inter } from "next/font/google";
+import { Inter, Montserrat } from "next/font/google";
 import Head from "next/head";
 
 const fontInter = Inter({
@@ -11,9 +11,16 @@ const fontInter = Inter({
   subsets: ["latin"],
 });
 
+const fontMontserrat = Montserrat({
+  variable: "--font-montserrat",
+  subsets: ["latin"],
+});
+
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <div className={`${fontInter.variable} font-inter`}>
+    <div
+      className={`${fontInter.variable} ${fontMontserrat.variable} font-inter`}
+    >
       <Head>
         <meta
           name="viewport"
