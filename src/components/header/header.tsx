@@ -15,9 +15,9 @@ const Header = () => {
       >
         <Link href={"/"}>
           <Image
-            src="/images/logo-nav.png"
-            width={70}
-            height={70}
+            src="/images/logo-browser.png"
+            width={55}
+            height={55}
             alt="Logo de l'équipe RAN-parts du Dev"
           />
         </Link>

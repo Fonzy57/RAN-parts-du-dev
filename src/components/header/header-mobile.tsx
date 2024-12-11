@@ -64,9 +64,9 @@ const HeaderMobile = () => {
         <div>
           <Link href={"/"}>
             <Image
-              src="/images/logo-nav.png"
-              width={60}
-              height={60}
+              src="/images/logo-browser.png"
+              width={50}
+              height={50}
               alt="Logo de l'équipe RAN-parts du Dev"
             />
           </Link>
@@ -98,7 +98,7 @@ const HeaderMobile = () => {
 
       {/* NAVIGATION APPEARS FROM THE LEFT  */}
       <nav
-        className={`w-full bg-main z-50 h-[calc(100vh-73px)] fixed inset-x-0 top-[71px] bottom-0 transition-all duration-300 ease-in-out ${
+        className={`w-full bg-main z-50 h-[calc(100vh-71px)] fixed inset-x-0 top-[71px] bottom-0 transition-all duration-300 ease-in-out ${
           open ? "left-0" : "-left-full"
         } `}
       >
