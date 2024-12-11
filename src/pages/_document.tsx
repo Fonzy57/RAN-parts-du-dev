@@ -4,7 +4,7 @@ export default function Document() {
   return (
     <Html lang="fr">
       <Head>
-        <link rel="icon" href="/images/logo-browser.png" />
+        <link rel="icon" href="./images/logo-browser.png" />
       </Head>
       <body className="antialiased">
         <Main />
