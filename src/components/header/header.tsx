@@ -3,6 +3,7 @@ import Link from "next/link";
 
 // CONFIG
 import { navLinks } from "../../config/nav";
+import Image from "next/image";
 
 const Header = () => {
   return (
@@ -12,16 +13,13 @@ const Header = () => {
       <div
         className={`flex items-center justify-between w-[1325px] mx-auto xl:w-[1560px] transition duration-300 ease-in-out`}
       >
-        <Link href={"/"} scroll={false}>
-          {/* <BaseImage
-            src={"/images/mowgli-tattoo-studio-logo.png"}
-            width={70}
-            height={70}
-            alt="Logo de Mowgli Tattoo Studio "
-            className={`${
-              isHomePage ? homeLogoStyle : globalLogoStyle
-            } hover:grayscale-0 transition duration-300 ease-in-out`}
-          /> */}
+        <Link href={"/"}>
+          <Image
+            src="/images/logo-browser.png"
+            width={55}
+            height={55}
+            alt="Logo de l'équipe RAN-parts du Dev"
+          />
         </Link>
         <nav>
           <ul className="flex gap-8 font-cera uppercase ">
@@ -30,8 +28,7 @@ const Header = () => {
                 <li key={index}>
                   <Link
                     href={navitem.url}
-                    scroll={false}
-                    className={`font-bold text-xl hover:text-secondary-hover active:text-secondary-active transition duration-300 ease-in-out`}
+                    className={`font-bold text-xl hover:text-secondary active:text-secondary-hover transition duration-300 ease-in-out`}
                   >
                     {navitem.label}
                   </Link>

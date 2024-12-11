@@ -1,40 +1,86 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# RAN-parts du Dev - Site Vitrine
 
-## Getting Started
+Bienvenue sur le site vitrine de l'équipe **RAN-parts du Dev**, conçu dans le cadre du hackathon de Metz Numeric School ! Ce projet met en lumière notre équipe, notre démarche et notre contribution à ce challenge passionnant.
 
-First, run the development server:
+## 🚀 Objectif du Projet
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Le but de ce hackathon était de créer un escape game (physique ou numérique) visant à sensibiliser aux métiers du numérique et à la cybersécurité de manière ludique et engageante. Pour compléter cette expérience, nous avons également développé ce site vitrine pour présenter notre équipe et notre démarche.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 💻 Technologies Utilisées
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+Ce site a été développé avec les technologies suivantes :
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- **Next.js** : Framework React pour la génération de pages statiques et dynamiques.
+- **Tailwind CSS** : Framework CSS utilitaire pour un design moderne et responsive.
+- **TypeScript** : Langage de programmation pour les interactions dynamiques.
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+## 🛠️ Fonctionnalités
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Présentation de l'équipe **RAN-parts du Dev**.
+- Présentation du projet d'escape game numérique.
+- Présentation de Metz Numeric School.
+- Design responsive et moderne.
+- Optimisation pour un chargement rapide et une navigation fluide.
 
-## Learn More
+## 📂 Structure du Projet
 
-To learn more about Next.js, take a look at the following resources:
+Voici les principales sections du projet :
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+- **pages/** : Contient les pages statiques et dynamiques du site.
+- **components/** : Regroupe les composants réutilisables de l'interface.
+- **public/** : Héberge les fichiers statiques (images, favicon, etc.).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🚀 Déploiement
 
-## Deploy on Vercel
+<!-- TODO CHANGER LE DEPLOIEMENT QUAND FAIT SUR GITHUB -->
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Ce site est déployé sur [Vercel](https://vercel.com/), la plateforme recommandée pour les projets Next.js, afin d'assurer des performances optimales et une mise en ligne rapide.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+## 🧑‍💻 Installation Locale
+
+1. **Clonez le dépôt** :
+
+   ```bash
+   git clone https://github.com/Fonzy57/ran-parts-du-dev.git
+   ```
+
+2. **Accédez au dossier du projet** :
+
+   ```bash
+   cd ran-parts-du-dev
+   ```
+
+3. **Installez les dépendances** :
+
+   ```bash
+   npm install
+   # ou
+   yarn install
+   ```
+
+4. **Lancez le serveur de développement** :
+
+   ```bash
+   npm run dev
+   # ou
+   yarn run dev
+   ```
+
+5. **Ouvrez l'application dans votre navigateur** :  
+   Accédez à [http://localhost:3000](http://localhost:3000) ou [http://127.0.0.1:3000/](http://127.0.0.1:3000/) pour visualiser le site.
+
+---
+
+## Ressources utiles
+
+- [Next.js Documentation](https://nextjs.org/docs/13/getting-started)
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs/installation)
+
+---
+
+## Copyright
+
+© 2024 RAN-parts du Dev. Tous droits réservés.
+
+Ce projet, incluant son code, son design et son contenu, est la propriété intellectuelle de son auteur.  
+Toute utilisation, distribution ou modification non autorisée est strictement interdite sans consentement écrit préalable.

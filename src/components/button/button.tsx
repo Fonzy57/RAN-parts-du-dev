@@ -30,14 +30,10 @@ export const Button = ({
   let iconSize = 18;
 
   switch (color) {
-    case ButtonColor.Secondary:
-      classes +=
-        " bg-secondary text-black hover:bg-secondary-hover active:bg-secondary active:ring active:ring-secondary/40 disabled:hover:bg-secondary disabled:active:ring-0 ";
-      break;
     case ButtonColor.Primary:
     default:
       classes +=
-        " bg-main text-text hover:bg-main-hover active:bg-main active:ring active:ring-main/40 disabled:hover:bg-main disabled:active:ring-0";
+        " bg-transparent text-secondary border border-secondary hover:bg-secondary hover:text-white active:ring active:ring-secondary/40 disabled:hover:bg-main disabled:active:ring-0";
       break;
   }
 
@@ -69,7 +65,7 @@ export const Button = ({
       disabled={disabled}
     >
       {children}
-      {iconName ? <CustomIcon name={iconName} size={iconSize} /> : <p>🍌</p>}
+      {iconName && <CustomIcon name={iconName} size={iconSize} />}
     </button>
   );
 };

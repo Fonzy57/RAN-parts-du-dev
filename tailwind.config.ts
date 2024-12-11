@@ -18,30 +18,24 @@ export default {
     colors: {
       white: "#FFF",
       black: "#000",
-      bgDark: "#1E1E1E",
+      bgDark: "#151b36",
       main: {
-        DEFAULT: "#FFD161",
-        hover: "#FFBA45",
-        active: "#E6C053",
-        altLight: "#FFF4E1",
-        altDark: "#D9B44A",
+        DEFAULT: "#313d73",
+        dark: "#131933",
+        hover: "#",
+        active: "#",
       },
       secondary: {
-        DEFAULT: "#FA9023",
-        hover: "#E97818",
-        active: "#D16F15",
-        altLight: "#FA9023",
-        altDark: "#FA9023",
+        DEFAULT: "#ec6834",
+        hover: "#eca834",
+        active: "#",
       },
-      border: {
-        light: "#F1CEA1",
-        dark: "#B85C0E",
-      },
-      text: { DEFAULT: "#46320F", light: "#F5F5F5" },
+      text: { DEFAULT: "#FFF" },
     },
     extend: {
       fontFamily: {
         inter: ["var(--font-inter)", ...fontFamily.sans],
+        montserrat: ["var(--font-montserrat)", ...fontFamily.sans],
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
@@ -49,7 +43,7 @@ export default {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       boxShadow: {
-        "full-main": "0 0 50px rgb(255 209 97 / 0.2)",
+        "full-main": "0 0 50px rgb(236 104 52 / 0.2)",
       },
     },
   },
