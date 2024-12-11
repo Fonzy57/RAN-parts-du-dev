@@ -1,7 +1,7 @@
 export const navLinks = [
   {
-    name: "projet",
-    label: "notre projet",
+    name: "accueil",
+    label: "accueil",
     url: "/",
   },
   {
