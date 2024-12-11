@@ -13,7 +13,7 @@ const Header = () => {
       <div
         className={`flex items-center justify-between w-[1325px] mx-auto xl:w-[1560px] transition duration-300 ease-in-out`}
       >
-        <Link href={"/"} scroll={false}>
+        <Link href={"/"}>
           <Image
             src="/images/logo-nav.png"
             width={70}
@@ -28,8 +28,7 @@ const Header = () => {
                 <li key={index}>
                   <Link
                     href={navitem.url}
-                    scroll={false}
-                    className={`font-bold text-xl hover:text-secondary-hover active:text-secondary-active transition duration-300 ease-in-out`}
+                    className={`font-bold text-xl hover:text-secondary active:text-secondary-hover transition duration-300 ease-in-out`}
                   >
                     {navitem.label}
                   </Link>
