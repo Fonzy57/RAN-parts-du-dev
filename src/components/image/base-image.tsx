@@ -2,7 +2,6 @@
 import Image, { ImageProps } from "next/image";
 
 // CONFIG
-import getConfig from "next/config";
 import { basePath } from "../../../next.config";
 
 interface BaseImageProps extends Omit<ImageProps, "src"> {
