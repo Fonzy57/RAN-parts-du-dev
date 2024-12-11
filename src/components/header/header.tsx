@@ -3,6 +3,7 @@ import Link from "next/link";
 
 // CONFIG
 import { navLinks } from "../../config/nav";
+import Image from "next/image";
 
 const Header = () => {
   return (
@@ -13,15 +14,12 @@ const Header = () => {
         className={`flex items-center justify-between w-[1325px] mx-auto xl:w-[1560px] transition duration-300 ease-in-out`}
       >
         <Link href={"/"} scroll={false}>
-          {/* <BaseImage
-            src={"/images/mowgli-tattoo-studio-logo.png"}
+          <Image
+            src="/images/logo-nav.png"
             width={70}
             height={70}
-            alt="Logo de Mowgli Tattoo Studio "
-            className={`${
-              isHomePage ? homeLogoStyle : globalLogoStyle
-            } hover:grayscale-0 transition duration-300 ease-in-out`}
-          /> */}
+            alt="Logo de l'équipe RAN-parts du Dev"
+          />
         </Link>
         <nav>
           <ul className="flex gap-8 font-cera uppercase ">
