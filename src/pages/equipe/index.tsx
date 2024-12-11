@@ -20,17 +20,20 @@ const Equipe = () => {
         </div>
       </div>
       <div className="grid grid-cols-1 gap-5 max-w-[1560px] mx-auto mt-12 px-5 pb-32 sm:mt-20 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 lg:gap-8 xl:px-0 xl:gap-10">
-        {teamMembers.map((member, index) => {
-          return (
-            <TeamCard
-              key={index}
-              nom={member.nom}
-              prenom={member.prenom}
-              ran={member.ran}
-              linkedin={member.linkedin ? member.linkedin : null}
-            />
-          );
-        })}
+        {teamMembers
+          .slice()
+          .sort((a, b) => a.nom.localeCompare(b.nom))
+          .map((member, index) => {
+            return (
+              <TeamCard
+                key={index}
+                nom={member.nom}
+                prenom={member.prenom}
+                ran={member.ran}
+                linkedin={member.linkedin ? member.linkedin : null}
+              />
+            );
+          })}
       </div>
     </>
   );
