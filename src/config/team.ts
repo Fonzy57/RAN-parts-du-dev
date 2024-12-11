@@ -10,7 +10,6 @@ export const teamMembers: TeamMembersProps[] = [
     nom: "BAKHTI",
     prenom: "Sarah",
     ran: 2,
-    linkedin: "toto",
   },
   {
     nom: "LALLEMENT",
