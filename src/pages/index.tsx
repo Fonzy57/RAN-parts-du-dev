@@ -10,7 +10,6 @@ export default function Home() {
     <>
       <Seo page="home" />
       <section className="px-5 pt-10 w-full sm:pt-14 md:pt-20">
-        {/* TODO CHANGER TYPO DU SITE */}
         <h1 className="font-montserrat text-center font-semibold text-secondary text-4xl sm:text-5xl md:text-6xl lg:text-8xl">
           RAN-parts du Dev
         </h1>
