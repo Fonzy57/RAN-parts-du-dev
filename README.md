@@ -28,6 +28,7 @@ Voici les principales sections du projet :
 
 - **pages/** : Contient les pages statiques et dynamiques du site.
 - **components/** : Regroupe les composants réutilisables de l'interface.
+- **config/** : Regroupe les fichiers de configuration (membres de l'équipe, liens de navigation, formations MNS, etc).
 - **public/** : Héberge les fichiers statiques (images, favicon, etc.).
 
 ## 🚀 Déploiement
