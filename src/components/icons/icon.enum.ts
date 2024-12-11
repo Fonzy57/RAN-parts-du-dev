@@ -1,0 +1,18 @@
+export enum IconName {
+  Facebook,
+  Instagram,
+  Location,
+  At,
+  Envelope,
+  Wordpress,
+  ArrowDown,
+  Couch,
+  Eye,
+  Medal,
+  Bandage,
+  Soap,
+  Shower,
+  HandHeart,
+  Swimming,
+  MedicalPump,
+}
