@@ -59,7 +59,7 @@ const HeaderMobile = () => {
     <>
       <div
         /* ${open ? "fixed inset-x-0 top-0 z-50" : ""} WAS BEFORE BUT NON NECESSARY */
-        className={`w-full flex items-center justify-between bg-main border-b border-secondary-hover px-5 py-2.5`}
+        className={`w-full flex items-center justify-between bg-main border-b border-secondary px-5 py-2.5`}
       >
         <div>
           <Link href={"/"}>
@@ -78,17 +78,17 @@ const HeaderMobile = () => {
           <p className="uppercase text-text pt-0.5">Menu</p>
           <div className={"flex flex-col gap-y-1 w-[14px] h-[14px]"}>
             <span
-              className={`w-full min-h-[2px] rounded-[20px] bg-secondary-hover transition-all duration-300 ease-in-out ${
+              className={`w-full min-h-[2px] rounded-[20px] bg-secondary transition-all duration-300 ease-in-out ${
                 open ? "translate-y-[6px] rotate-45" : ""
               }`}
             ></span>
             <span
-              className={`w-full min-h-[2px] rounded-[20px] bg-secondary-hover transition-all duration-300 ease-in-out ${
+              className={`w-full min-h-[2px] rounded-[20px] bg-secondary transition-all duration-300 ease-in-out ${
                 open ? "opacity-0" : ""
               }`}
             ></span>
             <span
-              className={`w-full min-h-[2px] rounded-[20px] bg-secondary-hover transition-all duration-300 ease-in-out ${
+              className={`w-full min-h-[2px] rounded-[20px] bg-secondary transition-all duration-300 ease-in-out ${
                 open ? "-translate-y-[6px] -rotate-45" : ""
               }`}
             ></span>
