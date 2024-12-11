@@ -2,7 +2,7 @@ import { TeamMembersProps } from "@/config/team";
 import { CustomIcon } from "../icons/icon";
 import { IconName } from "../icons/icon.enum";
 
-const TeamCard = ({ nom, prenom, ran, linkedin }: TeamMembersProps) => {
+const TeamCard = ({ nom, prenom, ran }: TeamMembersProps) => {
   return (
     <div className="border border-secondary rounded-lg py-8 px-6 flex flex-col items-center justify-center gap-4 hover:shadow-full-main transition-all duration-300 ease-in-out">
       <div className="w-[100px] h-[100px] bg-main rounded-full flex items-center justify-center">
@@ -12,9 +12,7 @@ const TeamCard = ({ nom, prenom, ran, linkedin }: TeamMembersProps) => {
         <p className="text-lg">{prenom}</p>
         <p className="text-xl font-semibold">{nom}</p>
       </div>
-      <p>RAN {ran}</p>
-      {/* TODO VOIR SI ON GARDE LE LINKEDIN */}
-      {/* {linkedin !== null && <CustomIcon name={IconName.Linkedin} size={32} />} */}
+      <p className="font-bold">RAN {ran}</p>
     </div>
   );
 };
