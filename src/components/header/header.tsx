@@ -7,9 +7,6 @@ import Image from "next/image";
 import getConfig from "next/config";
 import BaseImage from "../image/base-image";
 
-const { publicRuntimeConfig } = getConfig();
-const basePath = publicRuntimeConfig.basePath;
-
 const Header = () => {
   return (
     <div

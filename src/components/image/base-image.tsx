@@ -5,7 +5,7 @@ import Image, { ImageProps } from "next/image";
 import getConfig from "next/config";
 
 const { publicRuntimeConfig } = getConfig();
-const { basePath } = publicRuntimeConfig;
+const basePath = publicRuntimeConfig.basePath;
 
 interface BaseImageProps extends Omit<ImageProps, "src"> {
   // Inherits Image props, except "src"
