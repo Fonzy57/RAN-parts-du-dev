@@ -2,14 +2,12 @@ import type { NextConfig } from "next";
 
 const isProd = process.env.NODE_ENV === "production";
 
+export const basePath = isProd ? "/ran-parts-du-dev" : "";
+
 const nextConfig: NextConfig = {
-  /* config options here */
-  basePath: isProd ? "/ran-parts-du-dev" : "",
-  assetPrefix: isProd ? "/ran-parts-du-dev/" : "",
+  basePath,
+  assetPrefix: basePath,
   reactStrictMode: true,
-  publicRuntimeConfig: {
-    basePath: isProd ? "/ran-parts-du-dev" : "",
-  },
 };
 
 export default nextConfig;
