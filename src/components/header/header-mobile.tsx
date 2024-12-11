@@ -9,6 +9,7 @@ import { useEffect, useState } from "react";
 // CONFIG
 import { navLinks } from "@/config/nav";
 import Image from "next/image";
+import BaseImage from "../image/base-image";
 
 const HeaderMobile = () => {
   const [open, setOpen] = useState(false);
@@ -63,7 +64,7 @@ const HeaderMobile = () => {
       >
         <div>
           <Link href={"/"}>
-            <Image
+            <BaseImage
               src="/images/logo-browser.png"
               width={50}
               height={50}

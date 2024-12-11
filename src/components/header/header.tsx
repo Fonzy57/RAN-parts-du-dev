@@ -4,6 +4,11 @@ import Link from "next/link";
 // CONFIG
 import { navLinks } from "../../config/nav";
 import Image from "next/image";
+import getConfig from "next/config";
+import BaseImage from "../image/base-image";
+
+const { publicRuntimeConfig } = getConfig();
+const basePath = publicRuntimeConfig.basePath;
 
 const Header = () => {
   return (
@@ -14,8 +19,8 @@ const Header = () => {
         className={`flex items-center justify-between w-[1325px] mx-auto xl:w-[1560px] transition duration-300 ease-in-out`}
       >
         <Link href={"/"}>
-          <Image
-            src="/images/logo-browser.png"
+          <BaseImage
+            src={`/images/logo-browser.png`}
             width={55}
             height={55}
             alt="Logo de l'équipe RAN-parts du Dev"

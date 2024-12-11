@@ -7,6 +7,7 @@ import Image from "next/image";
 // CONFIG
 import { version } from "../../config/version";
 import { formations } from "@/config/formations";
+import BaseImage from "../image/base-image";
 
 const year = new Date().getFullYear();
 
@@ -31,7 +32,7 @@ const Footer = () => {
   return (
     <div className="bg-main pt-14 pb-6 px-5 sm:pt-20 lg:pt-8">
       <div className="flex flex-col justify-center items-center mx-auto lg:flex-row lg:justify-between lg:w-[1325px] xl:w-[1560px]">
-        <Image
+        <BaseImage
           src="/images/logo-nav.png"
           width={170}
           height={170}
