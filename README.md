@@ -38,6 +38,22 @@ Ce site est déployé sur [Vercel](https://vercel.com/), la plateforme recommand
 
 ## 🧑‍💻 Installation Locale
 
+### Prérequis
+
+- **Node.js** (version 16.8 ou supérieure)
+
+  Vérifiez votre version de Node.js :
+
+  ```bash
+  node -v
+  ```
+
+  Si vous n'avez pas la version requise, téléchargez et installez la dernière version depuis [Node.js](https://nodejs.org/).
+
+- **npm**, **yarn**, ou **pnpm** pour gérer les dépendances
+
+### Étapes d'installation
+
 1. **Clonez le dépôt** :
 
    ```bash
