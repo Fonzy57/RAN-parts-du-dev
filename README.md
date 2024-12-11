@@ -32,9 +32,14 @@ Voici les principales sections du projet :
 
 ## 🚀 Déploiement
 
-<!-- TODO CHANGER LE DEPLOIEMENT QUAND FAIT SUR GITHUB -->
+Ce site est déployé sur [GitHub Pages](https://fonzy57.github.io/ran-parts-du-dev/).
 
-Ce site est déployé sur [Vercel](https://vercel.com/), la plateforme recommandée pour les projets Next.js, afin d'assurer des performances optimales et une mise en ligne rapide.
+Le déploiement est automatisé grâce à **GitHub Actions**. À chaque fois qu'une modification est poussée sur la branche `main`, un workflow s'exécute pour :
+
+1. Construire le projet en générant des fichiers statiques.
+2. Déployer automatiquement ces fichiers.
+
+Cela garantit que le site est toujours à jour avec les dernières modifications ! 🎉
 
 ## 🧑‍💻 Installation Locale
 
