@@ -19,6 +19,7 @@ export default {
       white: "#FFF",
       black: "#000",
       bgDark: "#151b36",
+      bgWhite: "#fbf4ee",
       main: {
         DEFAULT: "#313d73",
         dark: "#131933",

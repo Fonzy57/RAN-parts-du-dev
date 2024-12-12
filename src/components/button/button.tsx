@@ -33,7 +33,7 @@ export const Button = ({
     case ButtonColor.Primary:
     default:
       classes +=
-        " bg-transparent text-secondary border border-secondary hover:bg-secondary hover:text-white active:ring active:ring-secondary/40 disabled:hover:bg-main disabled:active:ring-0";
+        " bg-secondary text-white border border-secondary hover:bg-bgWhite hover:text-secondary active:rounded-xl active:ring active:ring-secondary/40 disabled:hover:bg-main disabled:active:ring-0";
       break;
   }
 
