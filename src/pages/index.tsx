@@ -1,9 +1,14 @@
-/* import { Button } from "@/components/button/button"; */
+// NEXT
+import Link from "next/link";
+
+// COMPONENTS
 import { LinkButton } from "@/components/button/link-button";
 import FormationCard from "@/components/card/formation-card";
+import BaseImage from "@/components/image/base-image";
 import Seo from "@/components/seo/seo";
+
+// CONFIG
 import { formations } from "@/config/formations";
-import Link from "next/link";
 
 export default function Home() {
   return (
@@ -38,9 +43,13 @@ export default function Home() {
               <LinkButton url="/equipe">Voir notre équipe</LinkButton>
             </div>
           </div>
-          <div className="w-full h-[200px] md:w-1/2 md:h-[400px] lg:w-[700px] lg:h-[500px] bg-secondary flex items-center justify-center rounded-lg">
-            <p className="uppercase text-3xl">photo de groupe</p>
-          </div>
+          <BaseImage
+            src={`/images/members/ran-parts-du-dev.jpg`}
+            width={700}
+            height={500}
+            alt="Logo de l'équipe RAN-parts du Dev"
+            className="rounded-lg shadow-full-main sm:shadow-photo"
+          />
         </div>
       </section>
 
