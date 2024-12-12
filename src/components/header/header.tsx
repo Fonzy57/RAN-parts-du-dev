@@ -10,7 +10,7 @@ import BaseImage from "../image/base-image";
 const Header = () => {
   return (
     <div
-      className={`w-full min-h-[80px] flex justify-center items-center transition duration-300 ease-in-out bg-main `}
+      className={`w-full min-h-[80px] flex justify-center items-center transition duration-300 ease-in-out bg-main border-b border-secondary`}
     >
       <div
         className={`flex items-center justify-between w-[1325px] mx-auto xl:w-[1560px] transition duration-300 ease-in-out`}
