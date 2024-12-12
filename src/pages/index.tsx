@@ -43,13 +43,15 @@ export default function Home() {
               <LinkButton url="/equipe">Voir notre équipe</LinkButton>
             </div>
           </div>
-          <BaseImage
-            src={`/images/members/ran-parts-du-dev.jpg`}
-            width={700}
-            height={500}
-            alt="Logo de l'équipe RAN-parts du Dev"
-            className="rounded-lg shadow-full-main sm:shadow-photo"
-          />
+          <div className="md:w-1/2 lg:w-[700px]">
+            <BaseImage
+              src={`/images/members/ran-parts-du-dev.webp`}
+              width={700}
+              height={500}
+              alt="Logo de l'équipe RAN-parts du Dev"
+              className="rounded-lg shadow-full-main sm:shadow-photo"
+            />
+          </div>
         </div>
       </section>
 
