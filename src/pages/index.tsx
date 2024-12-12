@@ -10,6 +10,9 @@ import Seo from "@/components/seo/seo";
 // CONFIG
 import { formations } from "@/config/formations";
 
+// TYPING
+import { IconName } from "@/components/icons/icon.enum";
+
 export default function Home() {
   return (
     <>
@@ -83,7 +86,11 @@ export default function Home() {
             partager notre passion pour le numérique. Prêts à relever le défi ?
             🚀
           </p>
-          <LinkButton url="https://fonzy57.github.io/escape-dev/" blank={true}>
+          <LinkButton
+            url="https://fonzy57.github.io/escape-dev/"
+            blank={true}
+            iconName={IconName.NewTab}
+          >
             Tenter l&apos;aventure
           </LinkButton>
         </div>

@@ -7,6 +7,7 @@ import { ReactNode } from "react";
 // ENUM & TYPING
 import { ButtonColor, ButtonSize, ButtonWidth } from "./button.enum";
 import { Button } from "./button";
+import { IconName } from "../icons/icon.enum";
 
 export interface LinkButtonProps {
   children: ReactNode;
@@ -18,6 +19,7 @@ export interface LinkButtonProps {
   disabled?: boolean | undefined;
   className?: string;
   loading?: boolean;
+  iconName?: IconName;
 }
 
 export const LinkButton = ({
@@ -29,6 +31,7 @@ export const LinkButton = ({
   size,
   disabled,
   className,
+  iconName,
 }: LinkButtonProps) => {
   let target = "_self";
   let rel = "";
@@ -46,6 +49,7 @@ export const LinkButton = ({
         size={size}
         disabled={disabled}
         className={className}
+        iconName={iconName}
       >
         {children}
       </Button>

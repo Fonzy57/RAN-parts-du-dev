@@ -1,5 +1,6 @@
 // ICONS FROM react-icons
 import { FaRegUser, FaLinkedin } from "react-icons/fa6"; // Font Awesome 6 library
+import { IoMdOpen } from "react-icons/io";
 
 // ENUM & TYPING
 import { IconName } from "./icon.enum";
@@ -14,6 +15,7 @@ interface CustomIconProps {
 export const iconComponents = {
   [IconName.User]: FaRegUser,
   [IconName.Linkedin]: FaLinkedin,
+  [IconName.NewTab]: IoMdOpen,
 };
 
 export const CustomIcon = ({

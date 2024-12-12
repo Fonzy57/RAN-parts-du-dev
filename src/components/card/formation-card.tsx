@@ -1,4 +1,5 @@
 import { LinkButton } from "../button/link-button";
+import { IconName } from "../icons/icon.enum";
 
 interface FormationCardProps {
   titre: string;
@@ -12,7 +13,7 @@ const FormationCard = ({ titre, description, url }: FormationCardProps) => {
       <h3 className="font-montserrat font-bold text-2xl">{titre}</h3>
       <p className="text-justify">{description}</p>
       <div className="mt-auto">
-        <LinkButton url={url} blank={true}>
+        <LinkButton url={url} blank={true} iconName={IconName.NewTab}>
           Voir les formations
         </LinkButton>
       </div>
