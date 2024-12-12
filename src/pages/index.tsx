@@ -83,8 +83,7 @@ export default function Home() {
             partager notre passion pour le numérique. Prêts à relever le défi ?
             🚀
           </p>
-          {/* TODO CHANGER L'URL VERS LE SITE ESCAPE GAME */}
-          <LinkButton url="#" blank={true}>
+          <LinkButton url="https://fonzy57.github.io/escape-dev/" blank={true}>
             Tenter l&apos;aventure
           </LinkButton>
         </div>
