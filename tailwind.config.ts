@@ -22,8 +22,6 @@ export default {
       main: {
         DEFAULT: "#313d73",
         dark: "#131933",
-        hover: "#",
-        active: "#",
       },
       secondary: {
         DEFAULT: "#ec6834",
@@ -44,6 +42,7 @@ export default {
       },
       boxShadow: {
         "full-main": "0 0 50px rgb(236 104 52 / 0.2)",
+        photo: "0 0 50px rgb(236 104 52 / 0.5)",
       },
     },
   },
